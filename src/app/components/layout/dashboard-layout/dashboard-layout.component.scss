@@ -60,6 +60,17 @@
   }
 }
 
+.btn-logout {
+  background-color: #8B1E3F;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: #6f1832;
+    color: white;
+  }
+}
+
 .carrinho-badge {
   position: absolute;
   top: 0;
