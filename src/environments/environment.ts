@@ -1,3 +1,5 @@
 export const environment = {
-    SERVIDOR : "http://54.234.118.20:8080"
+    // Caminho relativo: o Nginx na EC2 serve o Angular e faz proxy de /api
+    // para o backend na MESMA origem — não precisa mais de IP fixo nem de CORS.
+    SERVIDOR : ""
 };

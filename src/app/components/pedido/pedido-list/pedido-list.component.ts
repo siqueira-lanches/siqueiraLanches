@@ -3,7 +3,6 @@ import { PedidoService } from '../../../services/pedido.service';
 import { Pedido } from '../../../models/pedido.model';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { CarrinhoComponent } from '../../carrinho/carrinho/carrinho.component';
 
 @Component({
   selector: 'app-pedido-list',

@@ -30,9 +30,6 @@ export class AvaliacaoFormComponent implements OnInit {
       comentario: ['', [Validators.required]]
     });
 
-  const idProduto = this.route.snapshot.params['idProduto'];
-  const idAvaliacao = this.route.snapshot.params['id'];
-
     if (this.id) {
       this.avaliacaoService.findById(this.id).subscribe((avaliacao) => {
         this.form.patchValue(avaliacao);
