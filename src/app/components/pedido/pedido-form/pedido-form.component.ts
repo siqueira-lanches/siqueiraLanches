@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PedidoService } from '../../../services/pedido.service';
 import { CommonModule } from '@angular/common';
@@ -9,7 +9,6 @@ import { CarrinhoItem } from '../../../models/carrinho.item.model';
 import { AuthService } from '../../../services/auth.service';
 import { Pedido } from '../../../models/pedido.model';
 import { Observable } from 'rxjs';
-import { Produto } from '../../../models/produto.model';
 
 @Component({
   selector: 'app-pedido-form',

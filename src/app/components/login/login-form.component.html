@@ -5,13 +5,13 @@
 
   <form [formGroup]="loginForm" (ngSubmit)="entrar()">
     <div class="form-group">
-      <label>Email:</label>
-      <input type="email" formControlName="email" placeholder="Digite seu email">
+      <label for="email">Email:</label>
+      <input id="email" type="email" formControlName="email" placeholder="Digite seu email">
     </div>
 
     <div class="form-group">
-      <label>Senha:</label>
-      <input type="password" formControlName="senha" placeholder="Digite sua senha">
+      <label for="senha">Senha:</label>
+      <input id="senha" type="password" formControlName="senha" placeholder="Digite sua senha">
     </div>
 
     <button type="submit">Entrar</button>
