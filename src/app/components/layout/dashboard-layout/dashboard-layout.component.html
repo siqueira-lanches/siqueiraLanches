@@ -51,7 +51,7 @@
       <div class="d-flex">
         <button
           *ngIf="authService.isLoggedIn(); else loginButton"
-          class="btn btn-outline-light"
+          class="btn btn-logout"
           (click)="logout()"
         >
           Sair
